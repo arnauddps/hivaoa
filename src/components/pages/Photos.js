@@ -14,13 +14,6 @@ export default function Photos() {
 
   <>  
 
-{/* <Router>
-      <Routes>
-        <Route path ="/main-gallery" exact element={<MainGallery/>}/>
-      </Routes>
-    </Router> */}
-
-
   <div className='Banner_terre'>
     <Banner
     text_h ='EARTH'
@@ -28,7 +21,7 @@ export default function Photos() {
     text_button = "DISCOVER"
     link_button = "/main-gallery-terre"
     // src_video = '/videos/video-2.mp4'
-    image = "/images/newyork.jpg"
+    image = "../public//images/newyork.jpg"
     />
   </div>
 
@@ -41,7 +34,7 @@ export default function Photos() {
     text_button = "DISCOVER"
     link_button = "/sign-up"
     src_video = '/videos/video-1.mp4'
-    image = "/images/img-1.jpg"
+    image = "../public//images/img-1.jpg"
     />
   </div>
 

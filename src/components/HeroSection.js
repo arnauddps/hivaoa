@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/cotentin.mp4' autoPlay muted loop/>
+      <video src='../public/videos/cotentin.mp4' autoPlay muted loop/>
       
       <h1>WELCOME TO HIVAOA</h1>
       <p1>Rediscover our world</p1>
