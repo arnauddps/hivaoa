@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hivaoa/static/css/main.a3034345.css",
-    "main.js": "/hivaoa/static/js/main.f3b38eb4.js",
+    "main.js": "/hivaoa/static/js/main.fa5050ba.js",
     "static/media/img-2.jpg": "/hivaoa/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-4.jpg": "/hivaoa/static/media/img-4.a31875b76d39f6458a6e.jpg",
     "static/media/img-6.jpg": "/hivaoa/static/media/img-6.047226b0f6080d5b242c.jpg",
@@ -16,10 +16,10 @@
     "static/media/flag_ita.jpg": "/hivaoa/static/media/flag_ita.2d7c05f0a5d5e0ace28f.jpg",
     "index.html": "/hivaoa/index.html",
     "main.a3034345.css.map": "/hivaoa/static/css/main.a3034345.css.map",
-    "main.f3b38eb4.js.map": "/hivaoa/static/js/main.f3b38eb4.js.map"
+    "main.fa5050ba.js.map": "/hivaoa/static/js/main.fa5050ba.js.map"
   },
   "entrypoints": [
     "static/css/main.a3034345.css",
-    "static/js/main.f3b38eb4.js"
+    "static/js/main.fa5050ba.js"
   ]
 }
