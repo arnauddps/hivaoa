@@ -1,6 +1,12 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+// import CardItem from '../../public/images/';
+
+import photoPortrait from '../images/agathe.jpg';
+import photoCanada from '../images/Terre/Canada/1.jpeg';
+import photoUSA from '../images/Terre/USA/newyork.jpg';
+
 
 function Cards() {
   return (
@@ -10,13 +16,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='../public/images/agathe.jpg'
-              text='Fall in love with people'
+              src= {photoPortrait}
+              text='People who have the power'
               label='Portraits'
               path='/services'
             />
             <CardItem
-              src='../public/images/Terre/Canada/1.jpeg'
+              src= {photoCanada}
               text='Travel through the mountains of Eastern Canada'
               label='Canada'
               path='/services'
@@ -24,19 +30,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='../public/images/Terre/USA/newyork.jpg'
+              src= {photoUSA}
               text='Witness the highlights of the city that never sleeps : New York City'
               label='USA'
               path='/services'
             />
             <CardItem
-              src='../public/images/img-4.jpg'
+              src= {photoUSA}
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
               path='/products'
             />
             <CardItem
-              src='../public/images/img-8.jpg'
+              src= {photoUSA}
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
               path='/sign-up'

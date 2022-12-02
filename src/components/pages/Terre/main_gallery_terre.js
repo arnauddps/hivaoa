@@ -4,9 +4,10 @@ import Footer from '../../Footer';
 import Banner from '../../Banner';
 import "../../Navbar.css";
 
-
-
-
+import photoFrance from "../../../images/Terre/France/flag_fr.jpg";
+import photoItalie from "../../../images/Terre/Italie/flag_ita.jpg";
+import photoCanada from "../../../images/Terre/Canada/1.jpeg";
+import photoUSA from "../../../images/Terre/USA/newyork.jpg";
 
 
 const MainGallery = () => {
@@ -22,7 +23,7 @@ const MainGallery = () => {
     text_button = "DISCOVER"
     link_button = "/Gallery_france"
     // src_video = '/videos/video-2.mp4'
-    image = "/images/newyork.jpg"
+    image = {photoFrance}
     />
   </div>
 
@@ -33,7 +34,7 @@ const MainGallery = () => {
     text_button = "DISCOVER"
     link_button = "/Gallery_italie"
     // src_video = '/videos/video-2.mp4'
-    image = "/images/img-2.jpg"
+    image = {photoItalie}
     />
   </div>
 
@@ -44,7 +45,7 @@ const MainGallery = () => {
     text_button = "DISCOVER"
     link_button = "/Gallery_canada"
     // src_video = '/videos/video-2.mp4'
-    image = "/images/img-3.jpg"
+    image = {photoCanada}
     />
   </div>
 
@@ -55,7 +56,7 @@ const MainGallery = () => {
     text_button = "DISCOVER"
     link_button = "/Gallery_USA"
     // src_video = '/videos/video-2.mp4'
-    image = "/images/Terre/USA/newyork.jpg"
+    image = {photoUSA}
     />
   </div>
 

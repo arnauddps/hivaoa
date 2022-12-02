@@ -7,6 +7,8 @@ import '../Banner.css';
 //import '../HeroSection.css';
 import MainGallery from './Terre/main_gallery_terre';
 // import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import photoTerre from "../../images/newyork.jpg";
+import photoEspace from "../../images/img-1.jpg";
 
 
 export default function Photos() {
@@ -21,7 +23,7 @@ export default function Photos() {
     text_button = "DISCOVER"
     link_button = "/main-gallery-terre"
     // src_video = '/videos/video-2.mp4'
-    image = "../public//images/newyork.jpg"
+    image = {photoTerre}
     />
   </div>
 
@@ -34,7 +36,7 @@ export default function Photos() {
     text_button = "DISCOVER"
     link_button = "/sign-up"
     src_video = '/videos/video-1.mp4'
-    image = "../public//images/img-1.jpg"
+    image = {photoEspace}
     />
   </div>
 
