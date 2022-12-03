@@ -4,10 +4,11 @@ import Footer from '../../Footer';
 import Banner from '../../Banner';
 import "../../Navbar.css";
 
-import photoFrance from "../../../images/Terre/France/flag_fr.jpg";
-import photoItalie from "../../../images/Terre/Italie/flag_ita.jpg";
-import photoCanada from "../../../images/Terre/Canada/1.jpeg";
-import photoUSA from "../../../images/Terre/USA/newyork.jpg";
+import photoFrance from "../../../../public/images/Terre/France/flag_fr.jpg";
+import photoItalie from "../../../../public/images/Terre/Italie/flag_ita.jpg";
+import photoCanada from "../../../../public/images/Terre/Canada/1.jpeg";
+import photoUSA from "/images/Terre/USA/newyork.jpg";
+// import photoUSA from "../../../../public/images/Terre/USA/newyork.jpg";
 
 
 const MainGallery = () => {
