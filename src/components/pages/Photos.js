@@ -1,11 +1,10 @@
 import React from 'react';
 import Banner from '../Banner';
 import Footer from '../Footer';
-import Cards from '../Cards';
 import '../Banner.css';
 //import '../../App.css';
 //import '../HeroSection.css';
-import MainGallery from './Terre/main_gallery_terre';
+// import MainGallery from './Terre/main_gallery_terre';
 // import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import photoTerre from "../../images/newyork.jpg";
 // import photoEspace from "../../../public/images/newyork.jpg";
@@ -23,11 +22,10 @@ export default function Photos() {
     text_button = "DISCOVER"
     link_button = "/main-gallery-terre"
     // src_video = '/videos/video-2.mp4'
-    image = "/img-1.jpg"
+    image = "img-1.jpg"
     />
   </div>
 
-  {/* <Cards /> */}
 
   <div className='Banner_espace'>
     <Banner
