@@ -5,11 +5,10 @@ import Footer from '../../Footer';
 import "../Gallery.css";
 import "../../Navbar.css";
 
-// import photoFrance from "../../../../public/images/Terre/France/flag_fr.jpg";
-// import photoItalie from "../../../../public/images/Terre/Italie/flag_ita.jpg";
-// import photoCanada from "../../../../public/images/Terre/Canada/1.jpeg";
-// import photoUSA from ;
-// import photoUSA from "../../../../public/images/Terre/USA/newyork.jpg";
+import photoFrance from "../../../data/images/Terre/France/flag_fr.jpg";
+import photoItalie from "../../../data/images/Terre/Italie/flag_ita.jpg";
+import photoCanada from "../../../data/images/Terre/Canada/1.jpeg";
+import photoUSA from "../../../data/images/Terre/USA/newyork.jpg";
 
 
 const MainGallery = () => {
@@ -17,8 +16,7 @@ const MainGallery = () => {
   return (
     <>
     
-<h1>test</h1>
-{/* 
+
 <div className='Banner_France'>
     <Banner
     text_h ='FRANCE'
@@ -47,10 +45,9 @@ const MainGallery = () => {
     text_p = 'Eastern wildness'
     text_button = "DISCOVER"
     link_button = "/Gallery_canada"
-    // src_video = '/videos/video-2.mp4'
     image = {photoCanada}
     />
-  </div> */}
+  </div>
 
   <div className='Banner_USA'>
     <Banner
@@ -59,7 +56,7 @@ const MainGallery = () => {
     text_button = "DISCOVER"
     link_button = "/Gallery_USA"
     // src_video = '/videos/video-2.mp4'
-    image = "/images/Terre/USA/newyork.jpg"
+    image = {photoUSA}
     />
   </div>
 

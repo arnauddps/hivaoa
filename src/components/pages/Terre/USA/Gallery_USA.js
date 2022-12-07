@@ -7,7 +7,7 @@ import "../../../Navbar.css";
 function importAll(r) {
   return r.keys().map(r);
 }
-const images = importAll(require.context('../../../../../public/images/Terre/Canada', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../../../data/images/Terre/Canada', false, /\.(png|jpe?g|svg)$/));
 
 const Gallery_canada = () => {
   return (
