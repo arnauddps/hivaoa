@@ -5,7 +5,11 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
+    <>
+    
     <div className='footer-container'>
+      
+
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Thank you for your visit on my website
@@ -29,7 +33,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Me</h2>
-            <Link to='/sign-up'>What is Hivaoa</Link>
+            <Link to='/contact'>What is Hivaoa</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
@@ -60,15 +64,17 @@ function Footer() {
           </div>
         </div>
       </div>
+      
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              ARNAUD DUPUIS
+              ARNAUD DUPUIS              
               {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
           <small class='website-rights'>HIVAOA © 2022</small>
+
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -114,7 +120,11 @@ function Footer() {
         </div>
       </section>
     </div>
+    </>
   );
+
+  
+
 }
 
 export default Footer;

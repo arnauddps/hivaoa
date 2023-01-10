@@ -62,12 +62,25 @@
     padding: 0.5rem 1rem;
     height: 100%;
     font-family: 'Avenir';
-    
+  }
+
+  .nav-links-contact {
+    color: #242424; /* #fff */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    font-family: 'Avenir';
   }
   
   .nav-links:hover {
     border-bottom: 2px solid #242424; /* #fff */
     transition: all 0.2s ease-out;
+  }
+
+  .nav-links-contact:hover {
+    color: #fff;
   }
   
   .fa-bars {
@@ -123,6 +136,8 @@
       color: #242424;
       border-radius: 0;
     }
+
+
   
     .navbar-logo {
       position: absolute;

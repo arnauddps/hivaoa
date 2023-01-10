@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './components/pages/Home';
 import Photos from './components/pages/Photos';
 import Videos from './components/pages/Videos';
-import SignUp from './components/pages/SignUp';
+import Contact from './components/pages/Contact';
 
 import MainGalleryTerre from './components/pages/Terre/main_gallery_terre';
 import Gallery_france from './components/pages/Terre/France/Gallery_france';
@@ -23,7 +23,7 @@ function App() {
         <Route path="/" exact element={<Home/>}/>
         <Route path="/photos" exact element={<Photos/>}/>
         <Route path="/videos" exact element={<Videos/>}/>
-        <Route path="/sign-up" exact element={<SignUp/>}/>
+        <Route path="/contact" exact element={<Contact/>}/>
         
         <Route path ="/main-gallery-terre" exact element={<MainGalleryTerre/>}/>
 
