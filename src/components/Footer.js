@@ -35,36 +35,33 @@ function Footer() {
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Me</h2>
-            <Link to='/contact'>What is Hivaoa</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+          
+        <div class='footer-link-items'>
+            <h2>My work</h2>
+            
+            <Link to='/photos'>Photos</Link>
+            <a href="https://www.youtube.com/channel/UCDFCs6mWozaAeB1mKN4SAPQ">Videos</a>
+       
           </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+
+        <div class='footer-link-items'>
+            <h2>Print</h2>
+            <a href="https://etsy.com/">Buy</a>
+            <Link to='/contact'>Presets</Link>
+            <Link to='/photos'>View photos</Link>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
+
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Contact me</h2>
+            <Link to='/contact'>Contact</Link>
+            <a href="https://www.etsy.com/fr/about?ref=ftr">Support</a>
           </div>
+
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
           </div>
         </div>
       </div>
@@ -72,9 +69,9 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              ARNAUD DUPUIS              
-              {/* <i class='fab fa-typo3' /> */}
+
+            <Link to='/' className='social-logo-dps'>
+              ARNAUD DUPUIS             
             </Link>
           </div>
           <small class='website-rights'>HIVAOA © 2022</small>
