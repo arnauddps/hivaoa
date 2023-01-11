@@ -28,15 +28,24 @@
 
   
   
-  .videos {
+  .print {
     background-image: url('./data/images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 10px;
+  }
+
+  .print h2 {
+    font-size: 12;
   }
   
+  .openingDate {
+    font-size: 102;
+  }
+
+
   .sign-up {
     /* background-image: url('./data/images/img-8.jpg'); */
     background-position: center;

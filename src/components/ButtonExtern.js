@@ -19,7 +19,7 @@ const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const Button = ({
+export const ButtonExtern = ({
   children,
   type,
   onClick,
@@ -38,17 +38,16 @@ export const Button = ({
   return (
     <>
 
-<a href = {path}>
+<a href = {path} >
 <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        className={`btn2 ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}
         type={type}
         // path = {path}
       >
         {children}
       </button>
-  </a>
-    
+    </a>
 
 </>
   );

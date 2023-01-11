@@ -33,6 +33,16 @@
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
   }
+
+  .btn--footer {
+    background-color: red;
+    color: yellow;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+
+
   
   /* .btn--medium-contact {
     padding: 8px 20px;
@@ -77,3 +87,52 @@
   }
   
 
+
+
+
+
+
+
+
+  /* BOUTONS EXTERNES */
+
+
+  .btn2 {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Avenir';
+  }
+
+
+
+  .btn2--primary {
+    background-color: #FFF;
+    color: #242424;  /* #242424 */
+    border: 1px solid #fff;
+  }
+
+  .btn2--contact {
+    background-color: #FFF;
+    color: #242424;  /* #242424 */
+    border: none;
+
+  }
+  
+  .btn2--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+
+  .btn2--footer {
+    background-color: red;
+    color: yellow;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }

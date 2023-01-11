@@ -98,6 +98,13 @@
   font-size: 24px;
 }
 
+.social-icon-link:visted {
+  text-decoration: none;
+  color: orange;
+}
+
+
+
 .social-media {
   max-width: 1000px;
   width: 100%;
@@ -117,6 +124,16 @@
   justify-content: space-between;
   align-items: center;
   width: 240px;
+}
+
+.social-icons a {
+  fill: red;
+  cursor:pointer;
+}
+
+.social-icons a:hover {
+  fill: orange;
+  cursor:pointer;
 }
 
 .social-logo {

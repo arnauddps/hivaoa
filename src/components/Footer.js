@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
+import { ButtonExtern } from './ButtonExtern';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -14,7 +15,8 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Thank you for your visit on my website
         </p>
-        <p className='footer-subscription-text'>
+
+        {/* <p className='footer-subscription-text'>
           Subscribe to see the latest pictures.
         </p>
         <div className='input-areas'>
@@ -27,7 +29,9 @@ function Footer() {
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
-        </div>
+        </div> */}
+
+
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
@@ -76,46 +80,36 @@ function Footer() {
           <small class='website-rights'>HIVAOA © 2022</small>
 
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+
+          <a href="mailto:arnaud.dps@hotmail.fr" target="_blank" title='E-Mail' className='Mail'>
+    <ButtonExtern 
+    className='btns'
+    buttonStyle='btn--footer'
+    buttonSize='btn--medium'
+    >
+    <i class="fa">&#xf0e0;</i>
+    </ButtonExtern>
+    </a>
+
+
+            <a href="https://www.instagram.com/hivaooa/">
+            <ButtonExtern>
+            <i class='fab fa-instagram' />
+            </ButtonExtern>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCDFCs6mWozaAeB1mKN4SAPQ">
+            <ButtonExtern>
+            <i class='fab fa-youtube' />
+            </ButtonExtern>
+            </a>
+
+            <a href="https://www.linkedin.com/in/arnaud-dupuis1/">
+            <ButtonExtern>
+            <i class='fab fa-linkedin' />
+            </ButtonExtern>
+            </a>
+
           </div>
         </div>
       </section>

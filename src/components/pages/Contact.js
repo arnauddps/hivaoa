@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Footer';
 import '../Contact.css';
 import { Button } from '../Button';
+import { ButtonExtern } from '../ButtonExtern';
 import { Link } from 'react-router-dom';
 
 import photo_presentation from "../../data/images/nono.jpg"
@@ -46,32 +47,39 @@ export default function Contact() {
   </div>
 
   <div className='logos_block'>
-
-
-  
     <div className='logos_block_case'>
-    <a href="mailto:ecastets.pro@gmail.com" target="_blank" title='E-Mail' className='Mail'>
-    <Button>
-
+    <a href="mailto:arnaud.dps@hotmail.fr" target="_blank" title='E-Mail' className='Mail'>
+    <ButtonExtern>
     <i class="fa">&#xf0e0;</i>
-    <text>      MAIL</text>
-    </Button>
+    MAIL
+    </ButtonExtern>
     </a>
     </div>
     
 
     <div className='logos_block_case'>
-    <Button>
+      <a href="https://www.instagram.com/hivaooa/">
+    <ButtonExtern>
     <i class='fab fa-instagram' />
     <text>      INSTAGRAM</text>
-    </Button>
+    </ButtonExtern>
+    </a>
+    
     </div>
-
-    <a href="mailto:ecastets.pro@gmail.com" target="_blank" title='E-Mail' className='Mail'>
-                
-            </a>
-
   </div>
+
+
+  {/* <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+          path = {props.link_button}
+          element = {props.link_element}
+        >
+          {props.text_button}
+           </Button> */}
+
+
 
 
 </div>
